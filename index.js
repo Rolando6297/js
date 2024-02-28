@@ -74,5 +74,26 @@ nombreMascota
 
 // destrucctuting objects
 
-const {edad, nombre} = mascota
+const {edad, nombre} = mascota  // creacion de constante de objetos
+
 console.log(edad + nombre)
+
+// objetos dentro de objetos
+
+const web = {
+    nombre: 'amazon',
+    links:{
+        enlace: 'www.amazon.com.mx'
+    },
+    redesSociales: {
+        youtube : {
+            nombre : "youtur",
+            enlance :"youtube.com"
+        },
+        Facebook: {
+            nombre:"rolando",
+            enlace : "facebook.c"
+        }
+    }
+}
+console.log(web.redesSociales.Facebook.enlace)
